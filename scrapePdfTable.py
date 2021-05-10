@@ -18,7 +18,6 @@ print("Converted to "+outputfile)
 
 
 cropIdx = (224,376,767,1941)
-
 from PyPDF2 import PdfFileWriter, PdfFileReader
 in_f="example.pdf"
 input1 = PdfFileReader(in_f)
