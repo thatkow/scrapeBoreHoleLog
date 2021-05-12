@@ -1,14 +1,34 @@
 # Scraping pdf data
 
-This example was taken from [here](https://towardsdatascience.com/scraping-table-data-from-pdf-files-using-a-single-line-in-python-8607880c750), but adjusted to use python 3
+## About
+
+TODO
 
 ## Setup
 
 ```
 sudo apt install -y python3-pip # Install the python packaage manager `pip`
-pip3 install tabula-py # Install the python library tabula-py
+#TODO
 python3 scrapePdfTable.py --inputfile example.pdf
 
 ```
- pip3 install pdf2image
- sudo apt install poppler-utils
+
+## Running
+
+
+```
+python3 scrapeBoreHole.py \
+	--pdfFile exampleCorrected.pdf \
+	--pageSets 1-3,4-6,7-9 \
+	--ladderLeft 83 \
+	--ladderRight 109 \
+	--ladderTop 189 \
+	--ladderBottom 971 \
+	--descriptionLeft 121 \
+	--descriptionRight 388 \
+	--descriptionTop 189 \
+	--descriptionBottom 971 \
+	--width 826 \
+	--height 1169	
+```
+
