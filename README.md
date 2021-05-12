@@ -9,8 +9,6 @@ TODO
 ```
 sudo apt install -y python3-pip # Install the python packaage manager `pip`
 #TODO
-python3 scrapePdfTable.py --inputfile example.pdf
-
 ```
 
 ## Running
