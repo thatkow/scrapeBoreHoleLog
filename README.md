@@ -16,7 +16,7 @@ sudo apt install -y python3-pip # Install the python packaage manager `pip`
 
 ```
 python3 scrapeBoreHole.py \
-	--pdfFile exampleCorrected.pdf \
+	--pdfFile example.pdf \
 	--pageSets 1-3,4-6,7-9 \
 	--ladderLeft 83 \
 	--ladderRight 109 \
